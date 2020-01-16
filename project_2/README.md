@@ -3,7 +3,7 @@ How can home owners increase the sale prices of their homes?
 
 # Data Dictionary (Final Features):
 |Feature|Type|Description|
-|---|---|---|---|
+|---|---|---|
 |BsmtFin SF 1|float|(Continuous): Type 1 finished square feet|
 |Bsmt Exposure|int|(Ordinal): Refers to walkout or garden level walls|
 |Fireplaces|int|(Discrete): Number of fireplaces|
