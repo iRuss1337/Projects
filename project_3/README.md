@@ -21,9 +21,12 @@ We have identified the top 20 words from each subreddit and found that there exi
 
 ### Modelling
 
-
+Our team has used 2 different models for this classification problem. Naive Bayes Multinomial and Logistic Regression. As our goal is to correctly classify the 2 threads. We have chosen accuracy as the best metric to determine the most suitable model. Logsitic Regression gave an accuracy score of 91% while the Multinomial model gave an accuracy score of 89%. As such, we have picked the Logistic Regression as the better model to classify the threads. Due to the nature of the history thread, we haved decided to use the tfidfvectorizer as it penalises common words and gives more influence to less common text. 
 
 ---
 
-## Rubric
+## Conclusion 
 
+We also looked into the top features of the misclassified posts to see if we can further enhance our model. Words such as 'elephant', 'history', 'king', and 'naresuan' appear most often in the misclassfied posts. However, adding these words to our stop words caused the model to misclassify even more posts and thus giving lower accuracy. This implies that these words are features which are more significant in the posts. As such, we went ahead with our original model of Logistic Regression using the tfidf vectorizer for this classification problem. 
+
+---
