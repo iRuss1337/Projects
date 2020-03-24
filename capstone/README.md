@@ -2,7 +2,7 @@
 
 ## Executive Summary 
 
-In 2017, Global e-commerce transactions generated $29.267 trillion, including $25.516 trillion for business-to-business transtions and #3.851 trillion for business-to-consumer sales. With advancements in technology, businesses have invested in building mobile applications to get closer with their customers and we see more tradtional businesses moving towards e-business. Borders are torn down as businesses can reach out to customers globally. 
+In 2017, Global e-commerce transactions generated $29.267 trillion, including $25.516 trillion for business-to-business transtions and $3.851 trillion for business-to-consumer sales. With advancements in technology, businesses have invested in building mobile applications to get closer with their customers and we see more tradtional businesses moving towards e-business. Borders are torn down as businesses can reach out to customers globally. 
 
 ## Problem Statement 
 
