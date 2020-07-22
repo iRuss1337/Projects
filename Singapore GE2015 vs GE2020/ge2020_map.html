@@ -1,0 +1,3042 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5c728310e27a42bb89957658b8ddb339 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    
+            <style> #vega_lite_ed388e91699a4755842fb24bfc374a74 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    <script src="https://cdn.jsdelivr.net/npm/vega@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
+    
+            <style> #vega_lite_70afa1b37f524648b2216d3cb94309c9 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_bc90e95361004d0484544f9af5f82625 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_048be7ae4ba545c1875bedd0f5e14ca4 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_ac90a514732742978023d95576e4a09f {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_36e7bab64a7e4164986e5edc86f07287 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_8141bc1e55804696b095c085253b34e1 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_b6d03c7cddcd44c9a6779503929b4a1a {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_b41842bdb3364a7fbe7776db98678add {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_a6d83b3c8e9e4114b94c3086f534a55d {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_46a9152c1fab4f429e010fc16102967c {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_0e7cbb63e73f4076961026fba7f9028c {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_e71756c1c0a149beb44cf57220d4274e {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_81b1a76137764ec5a394a11b33a75eb7 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_99d73c7ecc134558bab753511d3a1561 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_9eae97a5a5e0444fa0f8844e034e31ee {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_0f05d63b7860410ba81ce1a83cea4dc5 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_e557d760475a49dbb236e1e73f857b32 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_135c9122f2fc4a3eae2d691a89a41892 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_f509e3cd1d6444b3b4eff99592ba4e86 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_2888f42d82e147b38947ded47471942b {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_9f900d11d5e144469f03ebe7a882fd67 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_1c72ed7e85114119aac2f7604e18dbd5 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_83faf45fa5424a7dad2e0576723380b7 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_52380439d1a84db8bcc92b1efc6357a0 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_d538dcb918d84400ab832c266af9abb3 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_24f965bb73624275908253e26e04914d {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_9f39022e081c45a0a3619d0c4d2cdd02 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_2e0e053b99364cbc92197db22eb5fbea {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_69baa4aba71245868a7cc88c27e43c1c {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_7373d0819f0440af84ce1f7eca416366 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_d8a5dde0bb914190a729f32599cdd42f {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_2439d1461b3a433d9791e929cbeec24b {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_7274e5051e7b4763a1e2077aad11a466 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_b7e023ff3c554af697ce7de5c181ada1 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_2e34e709725d43a6b335bc6cabd317ad {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_e1cae1c10c5f482f838b0510aa5f8a0e {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_c68dfdceb0bf42aea10316c7efe88291 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_8b88286be10d4070a1e5466aaae2e989 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_aeda6655a1824d3598ef25cfe61aaedb {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_ffb22500b1cf45899fe155c349a92ce1 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_b69c7bff47b24c69836d4a3e88ee67a4 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_ccb9ecde4ff646fbaf9797177f97bc49 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_184d4ba360254968819457a5018f956d {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_5d09631e2c0640108d4c1589f5347408 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_39086aa004554f0387cbd73e1c22b3f8 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_d96cd8d34e324afc8f69c942d91ed9e6 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_9b2243ba2da744e3ae10fa64641a178c {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_32e7c0ea081943f3a81be888bd76585f {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_d95fd55f71d040ad87b3139e86612693 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_5aac9c6fbd1b49319c32b013c76786a1 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_125c6fc0b6ce487fa1324a4747b3b3d4 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_71c7b3046e46465d94cfb99b9c010384 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_10cffa310f6049d285aa27bb76b682a0 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_d064a5a5d8974e35ad7ddb91fb7199ea {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_72b5342fe6fd43dd9e6d35328b72ec9f {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_bf6e1ce2aa114e2eac81d98672c7087a {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_2a0dfabb296c48048989f16ea5a6d864 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_0d5e5916cb4b41e698b15cd9b633f658 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_2c9867650811421eb05a732bff864deb {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_915471fcca1e4d5fa18c5eae093e37f5 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_83bfc677b9f24974babc5de20c5ea2ff {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5c728310e27a42bb89957658b8ddb339" ></div>
+        
+</body>
+<script>    
+    
+            var map_5c728310e27a42bb89957658b8ddb339 = L.map(
+                "map_5c728310e27a42bb89957658b8ddb339",
+                {
+                    center: [1.3521, 103.8198],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0c3cac4342b04f7290bdb6b370a45973 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 13, "maxZoom": 13, "minZoom": 11, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var marker_95b19c2dc2cf4ebdb0bef881da701ebf = L.marker(
+                [1.275978665139659, 103.82015122165016],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_f9a4a290c172479e9cca8cc1577bbe90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_95b19c2dc2cf4ebdb0bef881da701ebf.setIcon(icon_f9a4a290c172479e9cca8cc1577bbe90);
+        
+    
+            marker_95b19c2dc2cf4ebdb0bef881da701ebf.bindTooltip(
+                `<div>
+                     RADIN MAS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_e6a1fb58b6fa470db2a6c22740bbc5a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_ed388e91699a4755842fb24bfc374a74 = $(`             <div id="vega_lite_ed388e91699a4755842fb24bfc374a74"></div>             `)[0];
+            popup_e6a1fb58b6fa470db2a6c22740bbc5a1.setContent(vega_lite_ed388e91699a4755842fb24bfc374a74);
+        
+
+        marker_95b19c2dc2cf4ebdb0bef881da701ebf.bindPopup(popup_e6a1fb58b6fa470db2a6c22740bbc5a1)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_ed388e91699a4755842fb24bfc374a74, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-478520e2bc815cf12d62c19208f78265"}, "datasets": {"data-478520e2bc815cf12d62c19208f78265": [{"party": "RP", "vote_percentage": 25.99}, {"party": "PAP", "vote_percentage": 74.01}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for RADIN MAS", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_0a1050c9fd9641b4bb66b4e0e6d2e6f6 = L.marker(
+                [1.2979552827111978, 103.88393209411706],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_85d5f8e405da4a4a9ab51e09597d7134 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0a1050c9fd9641b4bb66b4e0e6d2e6f6.setIcon(icon_85d5f8e405da4a4a9ab51e09597d7134);
+        
+    
+            marker_0a1050c9fd9641b4bb66b4e0e6d2e6f6.bindTooltip(
+                `<div>
+                     MOUNTBATTEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_0b5f1052130346f0b9da951ce4d89036 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_70afa1b37f524648b2216d3cb94309c9 = $(`             <div id="vega_lite_70afa1b37f524648b2216d3cb94309c9"></div>             `)[0];
+            popup_0b5f1052130346f0b9da951ce4d89036.setContent(vega_lite_70afa1b37f524648b2216d3cb94309c9);
+        
+
+        marker_0a1050c9fd9641b4bb66b4e0e6d2e6f6.bindPopup(popup_0b5f1052130346f0b9da951ce4d89036)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_70afa1b37f524648b2216d3cb94309c9, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-cac87fdd1e1c7fc70e7f51fc652bbe20"}, "datasets": {"data-cac87fdd1e1c7fc70e7f51fc652bbe20": [{"party": "PAP", "vote_percentage": 73.82}, {"party": "PV", "vote_percentage": 26.18}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for MOUNTBATTEN", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_8abfa4b5ff0c49658c85163165be98d2 = L.marker(
+                [1.3016850069672519, 103.82305861072145],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_5ff63a2f296b44f6a5fc3d7b7b174e69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8abfa4b5ff0c49658c85163165be98d2.setIcon(icon_5ff63a2f296b44f6a5fc3d7b7b174e69);
+        
+    
+            marker_8abfa4b5ff0c49658c85163165be98d2.bindTooltip(
+                `<div>
+                     TANJONG PAGAR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_1d7d57bdaf0341e9a2fd1dc1ec9fcaa8 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_bc90e95361004d0484544f9af5f82625 = $(`             <div id="vega_lite_bc90e95361004d0484544f9af5f82625"></div>             `)[0];
+            popup_1d7d57bdaf0341e9a2fd1dc1ec9fcaa8.setContent(vega_lite_bc90e95361004d0484544f9af5f82625);
+        
+
+        marker_8abfa4b5ff0c49658c85163165be98d2.bindPopup(popup_1d7d57bdaf0341e9a2fd1dc1ec9fcaa8)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_bc90e95361004d0484544f9af5f82625, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-537e53850d65add1878d1972a5bfbb5e"}, "datasets": {"data-537e53850d65add1878d1972a5bfbb5e": [{"party": "PSP", "vote_percentage": 36.9}, {"party": "PAP", "vote_percentage": 63.1}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for TANJONG PAGAR", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_6117b2857d8e464d981cea7e88647186 = L.marker(
+                [1.3002027735192085, 103.85724253059061],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_179cfe036f3540f2b66ddc0ec104699c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6117b2857d8e464d981cea7e88647186.setIcon(icon_179cfe036f3540f2b66ddc0ec104699c);
+        
+    
+            marker_6117b2857d8e464d981cea7e88647186.bindTooltip(
+                `<div>
+                     JALAN BESAR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_e7cbeae399e74c11b9e7bff3cd12fe7b = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_048be7ae4ba545c1875bedd0f5e14ca4 = $(`             <div id="vega_lite_048be7ae4ba545c1875bedd0f5e14ca4"></div>             `)[0];
+            popup_e7cbeae399e74c11b9e7bff3cd12fe7b.setContent(vega_lite_048be7ae4ba545c1875bedd0f5e14ca4);
+        
+
+        marker_6117b2857d8e464d981cea7e88647186.bindPopup(popup_e7cbeae399e74c11b9e7bff3cd12fe7b)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_048be7ae4ba545c1875bedd0f5e14ca4, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-dd8fc01a88ae66767675caf5ee6112f4"}, "datasets": {"data-dd8fc01a88ae66767675caf5ee6112f4": [{"party": "PV", "vote_percentage": 34.64}, {"party": "PAP", "vote_percentage": 65.36}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for JALAN BESAR", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_10753cd26ba74552b3065e294b82d0e9 = L.marker(
+                [1.3240201744693818, 103.88606828160141],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_fbfd0d1b9dae4cc09ec76dd01144330b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_10753cd26ba74552b3065e294b82d0e9.setIcon(icon_fbfd0d1b9dae4cc09ec76dd01144330b);
+        
+    
+            marker_10753cd26ba74552b3065e294b82d0e9.bindTooltip(
+                `<div>
+                     MACPHERSON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_eb431cae94c8416983ecc18d90b6b676 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_ac90a514732742978023d95576e4a09f = $(`             <div id="vega_lite_ac90a514732742978023d95576e4a09f"></div>             `)[0];
+            popup_eb431cae94c8416983ecc18d90b6b676.setContent(vega_lite_ac90a514732742978023d95576e4a09f);
+        
+
+        marker_10753cd26ba74552b3065e294b82d0e9.bindPopup(popup_eb431cae94c8416983ecc18d90b6b676)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_ac90a514732742978023d95576e4a09f, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-6088bd8d48459ac280d98aaf3d8d1af4"}, "datasets": {"data-6088bd8d48459ac280d98aaf3d8d1af4": [{"party": "PPP", "vote_percentage": 28.26}, {"party": "PAP", "vote_percentage": 71.74}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for MACPHERSON", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_789e1fa7db3a48a6a79e2176e43a349b = L.marker(
+                [1.3382007899953416, 103.70086108366782],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_a78c5506b152430c9beef379c479e96f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_789e1fa7db3a48a6a79e2176e43a349b.setIcon(icon_a78c5506b152430c9beef379c479e96f);
+        
+    
+            marker_789e1fa7db3a48a6a79e2176e43a349b.bindTooltip(
+                `<div>
+                     PIONEER
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_c2e930980ea1481da00f5657170d2e8f = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_36e7bab64a7e4164986e5edc86f07287 = $(`             <div id="vega_lite_36e7bab64a7e4164986e5edc86f07287"></div>             `)[0];
+            popup_c2e930980ea1481da00f5657170d2e8f.setContent(vega_lite_36e7bab64a7e4164986e5edc86f07287);
+        
+
+        marker_789e1fa7db3a48a6a79e2176e43a349b.bindPopup(popup_c2e930980ea1481da00f5657170d2e8f)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_36e7bab64a7e4164986e5edc86f07287, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-8d8f36592dd210a5673ace97d41be4d7"}, "datasets": {"data-8d8f36592dd210a5673ace97d41be4d7": [{"party": "Independent", "vote_percentage": 2.78}, {"party": "PSP", "vote_percentage": 35.22}, {"party": "PAP", "vote_percentage": 62.0}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for PIONEER", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_b9d67237e4f54614a598b1cf11ce9624 = L.marker(
+                [1.334535425663624, 103.87390067971462],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_8e0025a496954e9c9e308cae1c99b6f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b9d67237e4f54614a598b1cf11ce9624.setIcon(icon_8e0025a496954e9c9e308cae1c99b6f7);
+        
+    
+            marker_b9d67237e4f54614a598b1cf11ce9624.bindTooltip(
+                `<div>
+                     POTONG PASIR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_ce2a13665e904404a77c169a8d5dc2d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_8141bc1e55804696b095c085253b34e1 = $(`             <div id="vega_lite_8141bc1e55804696b095c085253b34e1"></div>             `)[0];
+            popup_ce2a13665e904404a77c169a8d5dc2d3.setContent(vega_lite_8141bc1e55804696b095c085253b34e1);
+        
+
+        marker_b9d67237e4f54614a598b1cf11ce9624.bindPopup(popup_ce2a13665e904404a77c169a8d5dc2d3)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_8141bc1e55804696b095c085253b34e1, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-48d1e5aa7a45d9569f61d08fe79d86ee"}, "datasets": {"data-48d1e5aa7a45d9569f61d08fe79d86ee": [{"party": "SPP", "vote_percentage": 39.33}, {"party": "PAP", "vote_percentage": 60.67}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for POTONG PASIR", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_909fb922afdf4eba99250f3ed77063c8 = L.marker(
+                [1.3394543577877986, 103.7381961001556],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_434c3281c08440e4bc0dfe9100a06816 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_909fb922afdf4eba99250f3ed77063c8.setIcon(icon_434c3281c08440e4bc0dfe9100a06816);
+        
+    
+            marker_909fb922afdf4eba99250f3ed77063c8.bindTooltip(
+                `<div>
+                     YUHUA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_7b33682c8ead424c9857e00a3a948a4a = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_b6d03c7cddcd44c9a6779503929b4a1a = $(`             <div id="vega_lite_b6d03c7cddcd44c9a6779503929b4a1a"></div>             `)[0];
+            popup_7b33682c8ead424c9857e00a3a948a4a.setContent(vega_lite_b6d03c7cddcd44c9a6779503929b4a1a);
+        
+
+        marker_909fb922afdf4eba99250f3ed77063c8.bindPopup(popup_7b33682c8ead424c9857e00a3a948a4a)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_b6d03c7cddcd44c9a6779503929b4a1a, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-fde6649b84ebe27ff82ce0addd33e982"}, "datasets": {"data-fde6649b84ebe27ff82ce0addd33e982": [{"party": "PAP", "vote_percentage": 70.54}, {"party": "SDP", "vote_percentage": 29.46}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for YUHUA", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_9b8467eb5b144b5fb60d9dea9c3c30a8 = L.marker(
+                [1.3475606739864474, 103.7471868103703],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_d671b091bcc1468c958142ebdb4f23ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9b8467eb5b144b5fb60d9dea9c3c30a8.setIcon(icon_d671b091bcc1468c958142ebdb4f23ab);
+        
+    
+            marker_9b8467eb5b144b5fb60d9dea9c3c30a8.bindTooltip(
+                `<div>
+                     BUKIT BATOK
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_56c5076c3aeb4991ae79b71febc66844 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_b41842bdb3364a7fbe7776db98678add = $(`             <div id="vega_lite_b41842bdb3364a7fbe7776db98678add"></div>             `)[0];
+            popup_56c5076c3aeb4991ae79b71febc66844.setContent(vega_lite_b41842bdb3364a7fbe7776db98678add);
+        
+
+        marker_9b8467eb5b144b5fb60d9dea9c3c30a8.bindPopup(popup_56c5076c3aeb4991ae79b71febc66844)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_b41842bdb3364a7fbe7776db98678add, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-d43216e15e0894828aec3879b906ce68"}, "datasets": {"data-d43216e15e0894828aec3879b906ce68": [{"party": "SDP", "vote_percentage": 45.2}, {"party": "PAP", "vote_percentage": 54.8}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for BUKIT BATOK", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_0550e0359cf74dcc9756e9712de99c93 = L.marker(
+                [1.3351045698818773, 103.74531091402933],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_79d534e4caed4389b39aeec1624f1b40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0550e0359cf74dcc9756e9712de99c93.setIcon(icon_79d534e4caed4389b39aeec1624f1b40);
+        
+    
+            marker_0550e0359cf74dcc9756e9712de99c93.bindTooltip(
+                `<div>
+                     JURONG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_a8cf3f7662e144d984c42112c9428356 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_a6d83b3c8e9e4114b94c3086f534a55d = $(`             <div id="vega_lite_a6d83b3c8e9e4114b94c3086f534a55d"></div>             `)[0];
+            popup_a8cf3f7662e144d984c42112c9428356.setContent(vega_lite_a6d83b3c8e9e4114b94c3086f534a55d);
+        
+
+        marker_0550e0359cf74dcc9756e9712de99c93.bindPopup(popup_a8cf3f7662e144d984c42112c9428356)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_a6d83b3c8e9e4114b94c3086f534a55d, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-f19f5169a00477eb2d18c5a6998858f6"}, "datasets": {"data-f19f5169a00477eb2d18c5a6998858f6": [{"party": "PAP", "vote_percentage": 74.61}, {"party": "RDU", "vote_percentage": 25.39}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for JURONG", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_206fb10923bb47588cec3af693ca3b8b = L.marker(
+                [1.323185931283781, 103.90294501309562],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_e8421047bac84af59b1f6f0af995535e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_206fb10923bb47588cec3af693ca3b8b.setIcon(icon_e8421047bac84af59b1f6f0af995535e);
+        
+    
+            marker_206fb10923bb47588cec3af693ca3b8b.bindTooltip(
+                `<div>
+                     MARINE PARADE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_cff755891f9643da838bab2fb39e673f = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_46a9152c1fab4f429e010fc16102967c = $(`             <div id="vega_lite_46a9152c1fab4f429e010fc16102967c"></div>             `)[0];
+            popup_cff755891f9643da838bab2fb39e673f.setContent(vega_lite_46a9152c1fab4f429e010fc16102967c);
+        
+
+        marker_206fb10923bb47588cec3af693ca3b8b.bindPopup(popup_cff755891f9643da838bab2fb39e673f)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_46a9152c1fab4f429e010fc16102967c, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-9c624ea595018b2df875e927e0a99a7b"}, "datasets": {"data-9c624ea595018b2df875e927e0a99a7b": [{"party": "WP", "vote_percentage": 42.26}, {"party": "PAP", "vote_percentage": 57.74}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for MARINE PARADE", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_dce59650df4b49439ebc748aac669173 = L.marker(
+                [1.2890019271367006, 103.70596113525787],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_891378a2398a4e3d888cc39bffd07da8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_dce59650df4b49439ebc748aac669173.setIcon(icon_891378a2398a4e3d888cc39bffd07da8);
+        
+    
+            marker_dce59650df4b49439ebc748aac669173.bindTooltip(
+                `<div>
+                     WEST COAST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_1c4a426e1b0443e0b4af883f89ff6b3b = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_0e7cbb63e73f4076961026fba7f9028c = $(`             <div id="vega_lite_0e7cbb63e73f4076961026fba7f9028c"></div>             `)[0];
+            popup_1c4a426e1b0443e0b4af883f89ff6b3b.setContent(vega_lite_0e7cbb63e73f4076961026fba7f9028c);
+        
+
+        marker_dce59650df4b49439ebc748aac669173.bindPopup(popup_1c4a426e1b0443e0b4af883f89ff6b3b)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_0e7cbb63e73f4076961026fba7f9028c, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-e4a765519e3f53dafe83489a8aa575c8"}, "datasets": {"data-e4a765519e3f53dafe83489a8aa575c8": [{"party": "PAP", "vote_percentage": 51.68}, {"party": "PSP", "vote_percentage": 48.32}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for WEST COAST", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_64b5b3f06e3d4bfd8dc532656eb1df50 = L.marker(
+                [1.3577485419506994, 103.84275212493193],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_4e0d895ef1ef41359fd630f26e7b35aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_64b5b3f06e3d4bfd8dc532656eb1df50.setIcon(icon_4e0d895ef1ef41359fd630f26e7b35aa);
+        
+    
+            marker_64b5b3f06e3d4bfd8dc532656eb1df50.bindTooltip(
+                `<div>
+                     MARYMOUNT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_3d0bd81a397445f8a7fa3c7f8b9ffba4 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_e71756c1c0a149beb44cf57220d4274e = $(`             <div id="vega_lite_e71756c1c0a149beb44cf57220d4274e"></div>             `)[0];
+            popup_3d0bd81a397445f8a7fa3c7f8b9ffba4.setContent(vega_lite_e71756c1c0a149beb44cf57220d4274e);
+        
+
+        marker_64b5b3f06e3d4bfd8dc532656eb1df50.bindPopup(popup_3d0bd81a397445f8a7fa3c7f8b9ffba4)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_e71756c1c0a149beb44cf57220d4274e, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-4cd16b0c0dd939323624c792311e7765"}, "datasets": {"data-4cd16b0c0dd939323624c792311e7765": [{"party": "PSP", "vote_percentage": 44.96}, {"party": "PAP", "vote_percentage": 55.04}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for MARYMOUNT", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_f1af962b2aaf453c8a372f3cfc2d8d54 = L.marker(
+                [1.3457748681686967, 103.83200104426263],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_5058a83f512346b59501fa2f6ee1b857 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f1af962b2aaf453c8a372f3cfc2d8d54.setIcon(icon_5058a83f512346b59501fa2f6ee1b857);
+        
+    
+            marker_f1af962b2aaf453c8a372f3cfc2d8d54.bindTooltip(
+                `<div>
+                     BISHAN-TOA PAYOH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_f90dd338f6974c6b9e52ddca5fe26444 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_81b1a76137764ec5a394a11b33a75eb7 = $(`             <div id="vega_lite_81b1a76137764ec5a394a11b33a75eb7"></div>             `)[0];
+            popup_f90dd338f6974c6b9e52ddca5fe26444.setContent(vega_lite_81b1a76137764ec5a394a11b33a75eb7);
+        
+
+        marker_f1af962b2aaf453c8a372f3cfc2d8d54.bindPopup(popup_f90dd338f6974c6b9e52ddca5fe26444)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_81b1a76137764ec5a394a11b33a75eb7, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-9634c8d64cea30086b301a97c92c63cb"}, "datasets": {"data-9634c8d64cea30086b301a97c92c63cb": [{"party": "PAP", "vote_percentage": 67.23}, {"party": "SPP", "vote_percentage": 32.77}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for BISHAN-TOA PAYOH", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_18174502a030485cb3cdad3c1991a90e = L.marker(
+                [1.3684003047158164, 103.89490791126292],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_2fa7b546dc3b49b291923286da0f63a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gavel", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_18174502a030485cb3cdad3c1991a90e.setIcon(icon_2fa7b546dc3b49b291923286da0f63a8);
+        
+    
+            marker_18174502a030485cb3cdad3c1991a90e.bindTooltip(
+                `<div>
+                     HOUGANG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_61a55c1f607f4ac1b06399e8de4f1920 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_99d73c7ecc134558bab753511d3a1561 = $(`             <div id="vega_lite_99d73c7ecc134558bab753511d3a1561"></div>             `)[0];
+            popup_61a55c1f607f4ac1b06399e8de4f1920.setContent(vega_lite_99d73c7ecc134558bab753511d3a1561);
+        
+
+        marker_18174502a030485cb3cdad3c1991a90e.bindPopup(popup_61a55c1f607f4ac1b06399e8de4f1920)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_99d73c7ecc134558bab753511d3a1561, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-50ea72a46bcc69ffb04d76ea9dc93558"}, "datasets": {"data-50ea72a46bcc69ffb04d76ea9dc93558": [{"party": "PAP", "vote_percentage": 38.79}, {"party": "WP", "vote_percentage": 61.21}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for HOUGANG", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_e7f5d5cdd34943c5854be5f03c794603 = L.marker(
+                [1.3627565794708019, 103.73197170379285],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_a54da0b3a9884a6daeac93acaa30061d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e7f5d5cdd34943c5854be5f03c794603.setIcon(icon_a54da0b3a9884a6daeac93acaa30061d);
+        
+    
+            marker_e7f5d5cdd34943c5854be5f03c794603.bindTooltip(
+                `<div>
+                     HONG KAH NORTH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_578468769ac24cd7ac91549ff8899c29 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_9eae97a5a5e0444fa0f8844e034e31ee = $(`             <div id="vega_lite_9eae97a5a5e0444fa0f8844e034e31ee"></div>             `)[0];
+            popup_578468769ac24cd7ac91549ff8899c29.setContent(vega_lite_9eae97a5a5e0444fa0f8844e034e31ee);
+        
+
+        marker_e7f5d5cdd34943c5854be5f03c794603.bindPopup(popup_578468769ac24cd7ac91549ff8899c29)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_9eae97a5a5e0444fa0f8844e034e31ee, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-7f09739c058f61ef77184e9170c4e5e1"}, "datasets": {"data-7f09739c058f61ef77184e9170c4e5e1": [{"party": "PAP", "vote_percentage": 60.99}, {"party": "PSP", "vote_percentage": 39.01}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for HONG KAH NORTH", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_3d1bcec562c74f228afe5fbd19f33fb4 = L.marker(
+                [1.3594384514422568, 103.94152145341093],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_c900d121506f424683bd7f625552ca28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3d1bcec562c74f228afe5fbd19f33fb4.setIcon(icon_c900d121506f424683bd7f625552ca28);
+        
+    
+            marker_3d1bcec562c74f228afe5fbd19f33fb4.bindTooltip(
+                `<div>
+                     TAMPINES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_2f214d4b80be4027ab3b68af9485440a = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_0f05d63b7860410ba81ce1a83cea4dc5 = $(`             <div id="vega_lite_0f05d63b7860410ba81ce1a83cea4dc5"></div>             `)[0];
+            popup_2f214d4b80be4027ab3b68af9485440a.setContent(vega_lite_0f05d63b7860410ba81ce1a83cea4dc5);
+        
+
+        marker_3d1bcec562c74f228afe5fbd19f33fb4.bindPopup(popup_2f214d4b80be4027ab3b68af9485440a)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_0f05d63b7860410ba81ce1a83cea4dc5, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-c04188cdf6516577671ebd5bac7723fc"}, "datasets": {"data-c04188cdf6516577671ebd5bac7723fc": [{"party": "PAP", "vote_percentage": 66.41}, {"party": "NSP", "vote_percentage": 33.59}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for TAMPINES", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_df117b2e69374776b2da00ac2bce6f98 = L.marker(
+                [1.355507088429944, 103.90292967503645],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_163faa642b734f78a3bfd9f49ad97337 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gavel", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_df117b2e69374776b2da00ac2bce6f98.setIcon(icon_163faa642b734f78a3bfd9f49ad97337);
+        
+    
+            marker_df117b2e69374776b2da00ac2bce6f98.bindTooltip(
+                `<div>
+                     ALJUNIED
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_56880b4333b349969075f42208713fc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_e557d760475a49dbb236e1e73f857b32 = $(`             <div id="vega_lite_e557d760475a49dbb236e1e73f857b32"></div>             `)[0];
+            popup_56880b4333b349969075f42208713fc2.setContent(vega_lite_e557d760475a49dbb236e1e73f857b32);
+        
+
+        marker_df117b2e69374776b2da00ac2bce6f98.bindPopup(popup_56880b4333b349969075f42208713fc2)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_e557d760475a49dbb236e1e73f857b32, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-bb7ca928b5440e3fec8f2b9005decbf4"}, "datasets": {"data-bb7ca928b5440e3fec8f2b9005decbf4": [{"party": "PAP", "vote_percentage": 40.05}, {"party": "WP", "vote_percentage": 59.95}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for ALJUNIED", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_e0eb446a7c084f7f83e2ead637c21224 = L.marker(
+                [1.376833663842171, 103.7730521601094],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_7ed5828e533541d98cbca46380a9f054 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e0eb446a7c084f7f83e2ead637c21224.setIcon(icon_7ed5828e533541d98cbca46380a9f054);
+        
+    
+            marker_e0eb446a7c084f7f83e2ead637c21224.bindTooltip(
+                `<div>
+                     BUKIT PANJANG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_f4e1965fabea4b1481c0516ff7c278c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_135c9122f2fc4a3eae2d691a89a41892 = $(`             <div id="vega_lite_135c9122f2fc4a3eae2d691a89a41892"></div>             `)[0];
+            popup_f4e1965fabea4b1481c0516ff7c278c0.setContent(vega_lite_135c9122f2fc4a3eae2d691a89a41892);
+        
+
+        marker_e0eb446a7c084f7f83e2ead637c21224.bindPopup(popup_f4e1965fabea4b1481c0516ff7c278c0)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_135c9122f2fc4a3eae2d691a89a41892, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-dcd5d3800c6eefd14fd7f0e9219c31aa"}, "datasets": {"data-dcd5d3800c6eefd14fd7f0e9219c31aa": [{"party": "PAP", "vote_percentage": 53.73}, {"party": "SDP", "vote_percentage": 46.27}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for BUKIT PANJANG", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_d75b329ba8fa4933a32e332730323629 = L.marker(
+                [1.3839808437604324, 103.83875944301174],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_a5972a23ae1f4c8cb05245b7065d8cbf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d75b329ba8fa4933a32e332730323629.setIcon(icon_a5972a23ae1f4c8cb05245b7065d8cbf);
+        
+    
+            marker_d75b329ba8fa4933a32e332730323629.bindTooltip(
+                `<div>
+                     YIO CHU KANG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_7d63a5abe4e04fcf8651d265f08b4e8b = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_f509e3cd1d6444b3b4eff99592ba4e86 = $(`             <div id="vega_lite_f509e3cd1d6444b3b4eff99592ba4e86"></div>             `)[0];
+            popup_7d63a5abe4e04fcf8651d265f08b4e8b.setContent(vega_lite_f509e3cd1d6444b3b4eff99592ba4e86);
+        
+
+        marker_d75b329ba8fa4933a32e332730323629.bindPopup(popup_7d63a5abe4e04fcf8651d265f08b4e8b)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_f509e3cd1d6444b3b4eff99592ba4e86, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-70dfc7b307790f27705d4486bba72b83"}, "datasets": {"data-70dfc7b307790f27705d4486bba72b83": [{"party": "PSP", "vote_percentage": 39.18}, {"party": "PAP", "vote_percentage": 60.82}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for YIO CHU KANG", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_f63f023cff4d4da9861a40755a4d0648 = L.marker(
+                [1.3901613973187283, 103.89704746574907],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_725dc6cecbbc4199a9f512245992a28f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gavel", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f63f023cff4d4da9861a40755a4d0648.setIcon(icon_725dc6cecbbc4199a9f512245992a28f);
+        
+    
+            marker_f63f023cff4d4da9861a40755a4d0648.bindTooltip(
+                `<div>
+                     SENGKANG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_aa24dbd975cb482cb4b3b0b30e0dea0d = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_2888f42d82e147b38947ded47471942b = $(`             <div id="vega_lite_2888f42d82e147b38947ded47471942b"></div>             `)[0];
+            popup_aa24dbd975cb482cb4b3b0b30e0dea0d.setContent(vega_lite_2888f42d82e147b38947ded47471942b);
+        
+
+        marker_f63f023cff4d4da9861a40755a4d0648.bindPopup(popup_aa24dbd975cb482cb4b3b0b30e0dea0d)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_2888f42d82e147b38947ded47471942b, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-740c7d36814b3f89f00fd4ed8ccf17f1"}, "datasets": {"data-740c7d36814b3f89f00fd4ed8ccf17f1": [{"party": "PAP", "vote_percentage": 47.88}, {"party": "WP", "vote_percentage": 52.12}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for SENGKANG", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_8db314f4dab34573bfc5d75af165434f = L.marker(
+                [1.3815915079988257, 103.82578398809954],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_6fbe8b0e28314a8eb1bb5a6d981000a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8db314f4dab34573bfc5d75af165434f.setIcon(icon_6fbe8b0e28314a8eb1bb5a6d981000a4);
+        
+    
+            marker_8db314f4dab34573bfc5d75af165434f.bindTooltip(
+                `<div>
+                     KEBUN BARU
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_8b707a8ba99348d5802124835b31a9ca = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_9f900d11d5e144469f03ebe7a882fd67 = $(`             <div id="vega_lite_9f900d11d5e144469f03ebe7a882fd67"></div>             `)[0];
+            popup_8b707a8ba99348d5802124835b31a9ca.setContent(vega_lite_9f900d11d5e144469f03ebe7a882fd67);
+        
+
+        marker_8db314f4dab34573bfc5d75af165434f.bindPopup(popup_8b707a8ba99348d5802124835b31a9ca)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_9f900d11d5e144469f03ebe7a882fd67, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-dac74744de5bff0e1f07cc5c04a4f24f"}, "datasets": {"data-dac74744de5bff0e1f07cc5c04a4f24f": [{"party": "PSP", "vote_percentage": 37.08}, {"party": "PAP", "vote_percentage": 62.92}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for KEBUN BARU", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_183beabe5135401a9f6f22c4f4c52cec = L.marker(
+                [1.403922616470893, 103.8959447056464],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_3ea5ad752c804f7f85c57ec84e81c1f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_183beabe5135401a9f6f22c4f4c52cec.setIcon(icon_3ea5ad752c804f7f85c57ec84e81c1f4);
+        
+    
+            marker_183beabe5135401a9f6f22c4f4c52cec.bindTooltip(
+                `<div>
+                     PUNGGOL WEST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_e1506f5818b14e68bafa44ac95d177b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_1c72ed7e85114119aac2f7604e18dbd5 = $(`             <div id="vega_lite_1c72ed7e85114119aac2f7604e18dbd5"></div>             `)[0];
+            popup_e1506f5818b14e68bafa44ac95d177b1.setContent(vega_lite_1c72ed7e85114119aac2f7604e18dbd5);
+        
+
+        marker_183beabe5135401a9f6f22c4f4c52cec.bindPopup(popup_e1506f5818b14e68bafa44ac95d177b1)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_1c72ed7e85114119aac2f7604e18dbd5, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-070b728c1321ba75b6253051936d0166"}, "datasets": {"data-070b728c1321ba75b6253051936d0166": [{"party": "PAP", "vote_percentage": 60.98}, {"party": "WP", "vote_percentage": 39.02}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for PUNGGOL WEST", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_b1c1521adffd4daba64dd256d3997faa = L.marker(
+                [1.3658475267644983, 103.78784256612474],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_8b4c7560626943cf8e007e310e8e43f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b1c1521adffd4daba64dd256d3997faa.setIcon(icon_8b4c7560626943cf8e007e310e8e43f5);
+        
+    
+            marker_b1c1521adffd4daba64dd256d3997faa.bindTooltip(
+                `<div>
+                     HOLLAND-BUKIT TIMAH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_d12611cd9ee04418920b86dedeeff3b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_83faf45fa5424a7dad2e0576723380b7 = $(`             <div id="vega_lite_83faf45fa5424a7dad2e0576723380b7"></div>             `)[0];
+            popup_d12611cd9ee04418920b86dedeeff3b7.setContent(vega_lite_83faf45fa5424a7dad2e0576723380b7);
+        
+
+        marker_b1c1521adffd4daba64dd256d3997faa.bindPopup(popup_d12611cd9ee04418920b86dedeeff3b7)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_83faf45fa5424a7dad2e0576723380b7, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-9c03c515f4dce37d41754d03097c272e"}, "datasets": {"data-9c03c515f4dce37d41754d03097c272e": [{"party": "SDP", "vote_percentage": 33.64}, {"party": "PAP", "vote_percentage": 66.36}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for HOLLAND-BUKIT TIMAH", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_63d7a7c187904767b1f4bf4d48d91dd1 = L.marker(
+                [1.3897010798327318, 103.93133564966094],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_fe8a457b144c426689bf1a7b363f40ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_63d7a7c187904767b1f4bf4d48d91dd1.setIcon(icon_fe8a457b144c426689bf1a7b363f40ba);
+        
+    
+            marker_63d7a7c187904767b1f4bf4d48d91dd1.bindTooltip(
+                `<div>
+                     PASIR RIS-PUNGGOL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_bda12fd1dccb415389e0efc8530803ed = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_52380439d1a84db8bcc92b1efc6357a0 = $(`             <div id="vega_lite_52380439d1a84db8bcc92b1efc6357a0"></div>             `)[0];
+            popup_bda12fd1dccb415389e0efc8530803ed.setContent(vega_lite_52380439d1a84db8bcc92b1efc6357a0);
+        
+
+        marker_63d7a7c187904767b1f4bf4d48d91dd1.bindPopup(popup_bda12fd1dccb415389e0efc8530803ed)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_52380439d1a84db8bcc92b1efc6357a0, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-29b0e420d2a370861d5fcade417506c7"}, "datasets": {"data-29b0e420d2a370861d5fcade417506c7": [{"party": "SDA", "vote_percentage": 23.67}, {"party": "PV", "vote_percentage": 12.17}, {"party": "PAP", "vote_percentage": 64.16}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for PASIR RIS-PUNGGOL", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_2a5e1548753e44688e029f7fab85b1b3 = L.marker(
+                [1.3696027642662085, 104.0039252255161],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_f0ceb6595404459b8fe22f858b22eee8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2a5e1548753e44688e029f7fab85b1b3.setIcon(icon_f0ceb6595404459b8fe22f858b22eee8);
+        
+    
+            marker_2a5e1548753e44688e029f7fab85b1b3.bindTooltip(
+                `<div>
+                     EAST COAST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_54144cac12624b03a80df1eb676695ba = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_d538dcb918d84400ab832c266af9abb3 = $(`             <div id="vega_lite_d538dcb918d84400ab832c266af9abb3"></div>             `)[0];
+            popup_54144cac12624b03a80df1eb676695ba.setContent(vega_lite_d538dcb918d84400ab832c266af9abb3);
+        
+
+        marker_2a5e1548753e44688e029f7fab85b1b3.bindPopup(popup_54144cac12624b03a80df1eb676695ba)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_d538dcb918d84400ab832c266af9abb3, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-b0df38576f234c9675b2aa9830e3182c"}, "datasets": {"data-b0df38576f234c9675b2aa9830e3182c": [{"party": "WP", "vote_percentage": 46.61}, {"party": "PAP", "vote_percentage": 53.39}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for EAST COAST", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_a00e265058f64e2cb73aa7b7c27f45be = L.marker(
+                [1.3952294508760836, 103.86714718048466],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_ec0f28de36bf42b7a1083d4a1d119bb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a00e265058f64e2cb73aa7b7c27f45be.setIcon(icon_ec0f28de36bf42b7a1083d4a1d119bb8);
+        
+    
+            marker_a00e265058f64e2cb73aa7b7c27f45be.bindTooltip(
+                `<div>
+                     ANG MO KIO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_59d82563e8544c7f8347c81069954f37 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_24f965bb73624275908253e26e04914d = $(`             <div id="vega_lite_24f965bb73624275908253e26e04914d"></div>             `)[0];
+            popup_59d82563e8544c7f8347c81069954f37.setContent(vega_lite_24f965bb73624275908253e26e04914d);
+        
+
+        marker_a00e265058f64e2cb73aa7b7c27f45be.bindPopup(popup_59d82563e8544c7f8347c81069954f37)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_24f965bb73624275908253e26e04914d, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-5eb2b788b568ad83afedc0f090afbf4f"}, "datasets": {"data-5eb2b788b568ad83afedc0f090afbf4f": [{"party": "PAP", "vote_percentage": 71.91}, {"party": "RP", "vote_percentage": 28.09}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for ANG MO KIO", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_786e11b26c704c659600becc77ad6f28 = L.marker(
+                [1.4232251406725156, 103.76572659755615],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_c9e60d33e27349c69260a48c4ce6edd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_786e11b26c704c659600becc77ad6f28.setIcon(icon_c9e60d33e27349c69260a48c4ce6edd5);
+        
+    
+            marker_786e11b26c704c659600becc77ad6f28.bindTooltip(
+                `<div>
+                     MARSILING-YEW TEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_ff8a3ef1c990412a82bdbe7ad3256206 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_9f39022e081c45a0a3619d0c4d2cdd02 = $(`             <div id="vega_lite_9f39022e081c45a0a3619d0c4d2cdd02"></div>             `)[0];
+            popup_ff8a3ef1c990412a82bdbe7ad3256206.setContent(vega_lite_9f39022e081c45a0a3619d0c4d2cdd02);
+        
+
+        marker_786e11b26c704c659600becc77ad6f28.bindPopup(popup_ff8a3ef1c990412a82bdbe7ad3256206)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_9f39022e081c45a0a3619d0c4d2cdd02, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-6ffe9dd62752a1c5b380bc0d968f8196"}, "datasets": {"data-6ffe9dd62752a1c5b380bc0d968f8196": [{"party": "SDP", "vote_percentage": 36.82}, {"party": "PAP", "vote_percentage": 63.18}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for MARSILING-YEW TEE", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_f2211f66796e488a89e9c592b06aa764 = L.marker(
+                [1.394100444743377, 103.70446433188238],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_5ed0244332724c969b951bdc34000ad1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f2211f66796e488a89e9c592b06aa764.setIcon(icon_5ed0244332724c969b951bdc34000ad1);
+        
+    
+            marker_f2211f66796e488a89e9c592b06aa764.bindTooltip(
+                `<div>
+                     CHUA CHU KANG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_ef50b335ef60445abe828b7272527908 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_2e0e053b99364cbc92197db22eb5fbea = $(`             <div id="vega_lite_2e0e053b99364cbc92197db22eb5fbea"></div>             `)[0];
+            popup_ef50b335ef60445abe828b7272527908.setContent(vega_lite_2e0e053b99364cbc92197db22eb5fbea);
+        
+
+        marker_f2211f66796e488a89e9c592b06aa764.bindPopup(popup_ef50b335ef60445abe828b7272527908)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_2e0e053b99364cbc92197db22eb5fbea, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-45966ad4b352f76112df3431ba482b12"}, "datasets": {"data-45966ad4b352f76112df3431ba482b12": [{"party": "PSP", "vote_percentage": 41.36}, {"party": "PAP", "vote_percentage": 58.64}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for CHUA CHU KANG", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_f3833dd9dcb541428debded0ca52f7a1 = L.marker(
+                [1.4237399423174648, 103.83152640469943],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_a176c65e6fc14df39277146bb4ce446a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f3833dd9dcb541428debded0ca52f7a1.setIcon(icon_a176c65e6fc14df39277146bb4ce446a);
+        
+    
+            marker_f3833dd9dcb541428debded0ca52f7a1.bindTooltip(
+                `<div>
+                     NEE SOON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_b9766737c3a846998b1abd4d2d0514d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_69baa4aba71245868a7cc88c27e43c1c = $(`             <div id="vega_lite_69baa4aba71245868a7cc88c27e43c1c"></div>             `)[0];
+            popup_b9766737c3a846998b1abd4d2d0514d7.setContent(vega_lite_69baa4aba71245868a7cc88c27e43c1c);
+        
+
+        marker_f3833dd9dcb541428debded0ca52f7a1.bindPopup(popup_b9766737c3a846998b1abd4d2d0514d7)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_69baa4aba71245868a7cc88c27e43c1c, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-36ab16f9b92baa62feab3800baad61b1"}, "datasets": {"data-36ab16f9b92baa62feab3800baad61b1": [{"party": "PSP", "vote_percentage": 38.1}, {"party": "PAP", "vote_percentage": 61.9}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for NEE SOON", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_d67b45a62de6476bb5d1da1f7db55b16 = L.marker(
+                [1.4513477546371436, 103.80908110818795],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_40ceaf9029e54b11880937bf97db0d80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d67b45a62de6476bb5d1da1f7db55b16.setIcon(icon_40ceaf9029e54b11880937bf97db0d80);
+        
+    
+            marker_d67b45a62de6476bb5d1da1f7db55b16.bindTooltip(
+                `<div>
+                     SEMBAWANG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_1bca53b90559455eb784e2af44bb0e53 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_7373d0819f0440af84ce1f7eca416366 = $(`             <div id="vega_lite_7373d0819f0440af84ce1f7eca416366"></div>             `)[0];
+            popup_1bca53b90559455eb784e2af44bb0e53.setContent(vega_lite_7373d0819f0440af84ce1f7eca416366);
+        
+
+        marker_d67b45a62de6476bb5d1da1f7db55b16.bindPopup(popup_1bca53b90559455eb784e2af44bb0e53)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_7373d0819f0440af84ce1f7eca416366, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-b685dd197b39bbaeea8d852b8fe1e57d"}, "datasets": {"data-b685dd197b39bbaeea8d852b8fe1e57d": [{"party": "PAP", "vote_percentage": 67.29}, {"party": "NSP", "vote_percentage": 32.71}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Voting Results for SEMBAWANG", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_e3e40e1c99ee4d0ab6e15d725ce1ed1c = L.marker(
+                [1.275978665139659, 103.82015122165016],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_71b2e6df06d64d00968321c06201e693 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e3e40e1c99ee4d0ab6e15d725ce1ed1c.setIcon(icon_71b2e6df06d64d00968321c06201e693);
+        
+    
+            marker_e3e40e1c99ee4d0ab6e15d725ce1ed1c.bindTooltip(
+                `<div>
+                     RADIN MAS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_f01e9755261045efb1e8146bd60a0ed6 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_d8a5dde0bb914190a729f32599cdd42f = $(`             <div id="vega_lite_d8a5dde0bb914190a729f32599cdd42f"></div>             `)[0];
+            popup_f01e9755261045efb1e8146bd60a0ed6.setContent(vega_lite_d8a5dde0bb914190a729f32599cdd42f);
+        
+
+        marker_e3e40e1c99ee4d0ab6e15d725ce1ed1c.bindPopup(popup_f01e9755261045efb1e8146bd60a0ed6)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_d8a5dde0bb914190a729f32599cdd42f, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-478520e2bc815cf12d62c19208f78265"}, "datasets": {"data-478520e2bc815cf12d62c19208f78265": [{"party": "RP", "vote_percentage": 25.99}, {"party": "PAP", "vote_percentage": 74.01}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for RADIN MAS", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_dbd4697103064dd1a35955318907a577 = L.marker(
+                [1.2979552827111978, 103.88393209411706],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_759c36d6302f4b33adcbf4948b817885 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_dbd4697103064dd1a35955318907a577.setIcon(icon_759c36d6302f4b33adcbf4948b817885);
+        
+    
+            marker_dbd4697103064dd1a35955318907a577.bindTooltip(
+                `<div>
+                     MOUNTBATTEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_bde36fb8948a492ba9850a2c9b754e11 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_2439d1461b3a433d9791e929cbeec24b = $(`             <div id="vega_lite_2439d1461b3a433d9791e929cbeec24b"></div>             `)[0];
+            popup_bde36fb8948a492ba9850a2c9b754e11.setContent(vega_lite_2439d1461b3a433d9791e929cbeec24b);
+        
+
+        marker_dbd4697103064dd1a35955318907a577.bindPopup(popup_bde36fb8948a492ba9850a2c9b754e11)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_2439d1461b3a433d9791e929cbeec24b, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-cac87fdd1e1c7fc70e7f51fc652bbe20"}, "datasets": {"data-cac87fdd1e1c7fc70e7f51fc652bbe20": [{"party": "PAP", "vote_percentage": 73.82}, {"party": "PV", "vote_percentage": 26.18}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for MOUNTBATTEN", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_bc415866a94040c2abcf43b5334e4e96 = L.marker(
+                [1.3016850069672519, 103.82305861072145],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_f3778326f20f4575aa5d7e49ad0d4ac9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bc415866a94040c2abcf43b5334e4e96.setIcon(icon_f3778326f20f4575aa5d7e49ad0d4ac9);
+        
+    
+            marker_bc415866a94040c2abcf43b5334e4e96.bindTooltip(
+                `<div>
+                     TANJONG PAGAR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_4c9c617167ee4123823b886cea8d9a17 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_7274e5051e7b4763a1e2077aad11a466 = $(`             <div id="vega_lite_7274e5051e7b4763a1e2077aad11a466"></div>             `)[0];
+            popup_4c9c617167ee4123823b886cea8d9a17.setContent(vega_lite_7274e5051e7b4763a1e2077aad11a466);
+        
+
+        marker_bc415866a94040c2abcf43b5334e4e96.bindPopup(popup_4c9c617167ee4123823b886cea8d9a17)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_7274e5051e7b4763a1e2077aad11a466, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-537e53850d65add1878d1972a5bfbb5e"}, "datasets": {"data-537e53850d65add1878d1972a5bfbb5e": [{"party": "PSP", "vote_percentage": 36.9}, {"party": "PAP", "vote_percentage": 63.1}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for TANJONG PAGAR", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_83453b0902f34ea7abdd3154311d23a8 = L.marker(
+                [1.3002027735192085, 103.85724253059061],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_1ffc1fe67c31454082f5346621721d8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_83453b0902f34ea7abdd3154311d23a8.setIcon(icon_1ffc1fe67c31454082f5346621721d8e);
+        
+    
+            marker_83453b0902f34ea7abdd3154311d23a8.bindTooltip(
+                `<div>
+                     JALAN BESAR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_6c40458a64ab4ce19948f7709755fdae = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_b7e023ff3c554af697ce7de5c181ada1 = $(`             <div id="vega_lite_b7e023ff3c554af697ce7de5c181ada1"></div>             `)[0];
+            popup_6c40458a64ab4ce19948f7709755fdae.setContent(vega_lite_b7e023ff3c554af697ce7de5c181ada1);
+        
+
+        marker_83453b0902f34ea7abdd3154311d23a8.bindPopup(popup_6c40458a64ab4ce19948f7709755fdae)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_b7e023ff3c554af697ce7de5c181ada1, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-dd8fc01a88ae66767675caf5ee6112f4"}, "datasets": {"data-dd8fc01a88ae66767675caf5ee6112f4": [{"party": "PV", "vote_percentage": 34.64}, {"party": "PAP", "vote_percentage": 65.36}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for JALAN BESAR", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_3d840816d1d14d18902964deaa4d9779 = L.marker(
+                [1.3240201744693818, 103.88606828160141],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_7f9d5da57f47498f92997d6907f5a8df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3d840816d1d14d18902964deaa4d9779.setIcon(icon_7f9d5da57f47498f92997d6907f5a8df);
+        
+    
+            marker_3d840816d1d14d18902964deaa4d9779.bindTooltip(
+                `<div>
+                     MACPHERSON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_c80e15b90fbf408aa08352bd4e8a7d40 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_2e34e709725d43a6b335bc6cabd317ad = $(`             <div id="vega_lite_2e34e709725d43a6b335bc6cabd317ad"></div>             `)[0];
+            popup_c80e15b90fbf408aa08352bd4e8a7d40.setContent(vega_lite_2e34e709725d43a6b335bc6cabd317ad);
+        
+
+        marker_3d840816d1d14d18902964deaa4d9779.bindPopup(popup_c80e15b90fbf408aa08352bd4e8a7d40)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_2e34e709725d43a6b335bc6cabd317ad, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-6088bd8d48459ac280d98aaf3d8d1af4"}, "datasets": {"data-6088bd8d48459ac280d98aaf3d8d1af4": [{"party": "PPP", "vote_percentage": 28.26}, {"party": "PAP", "vote_percentage": 71.74}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for MACPHERSON", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_f09957d5adcd4810a124db467653018a = L.marker(
+                [1.3382007899953416, 103.70086108366782],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_1cd6a8fa72aa45079ae62f92c6f2a5c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f09957d5adcd4810a124db467653018a.setIcon(icon_1cd6a8fa72aa45079ae62f92c6f2a5c9);
+        
+    
+            marker_f09957d5adcd4810a124db467653018a.bindTooltip(
+                `<div>
+                     PIONEER
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_1dbb6322a18142b8a2bc41963c617a74 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_e1cae1c10c5f482f838b0510aa5f8a0e = $(`             <div id="vega_lite_e1cae1c10c5f482f838b0510aa5f8a0e"></div>             `)[0];
+            popup_1dbb6322a18142b8a2bc41963c617a74.setContent(vega_lite_e1cae1c10c5f482f838b0510aa5f8a0e);
+        
+
+        marker_f09957d5adcd4810a124db467653018a.bindPopup(popup_1dbb6322a18142b8a2bc41963c617a74)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_e1cae1c10c5f482f838b0510aa5f8a0e, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-8d8f36592dd210a5673ace97d41be4d7"}, "datasets": {"data-8d8f36592dd210a5673ace97d41be4d7": [{"party": "Independent", "vote_percentage": 2.78}, {"party": "PSP", "vote_percentage": 35.22}, {"party": "PAP", "vote_percentage": 62.0}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for PIONEER", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_aae78035b3c440f489bf2122fe1730fc = L.marker(
+                [1.334535425663624, 103.87390067971462],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_0afae639730c47f5a3321977cb5526f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_aae78035b3c440f489bf2122fe1730fc.setIcon(icon_0afae639730c47f5a3321977cb5526f4);
+        
+    
+            marker_aae78035b3c440f489bf2122fe1730fc.bindTooltip(
+                `<div>
+                     POTONG PASIR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_8c6f4c8231dc46949d364305ae9c41d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_c68dfdceb0bf42aea10316c7efe88291 = $(`             <div id="vega_lite_c68dfdceb0bf42aea10316c7efe88291"></div>             `)[0];
+            popup_8c6f4c8231dc46949d364305ae9c41d5.setContent(vega_lite_c68dfdceb0bf42aea10316c7efe88291);
+        
+
+        marker_aae78035b3c440f489bf2122fe1730fc.bindPopup(popup_8c6f4c8231dc46949d364305ae9c41d5)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_c68dfdceb0bf42aea10316c7efe88291, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-48d1e5aa7a45d9569f61d08fe79d86ee"}, "datasets": {"data-48d1e5aa7a45d9569f61d08fe79d86ee": [{"party": "SPP", "vote_percentage": 39.33}, {"party": "PAP", "vote_percentage": 60.67}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for POTONG PASIR", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_6beda2facfad4047a72a8336a93f7630 = L.marker(
+                [1.3394543577877986, 103.7381961001556],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_2ed4b8b9898342bbadc394ed5e0e071b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6beda2facfad4047a72a8336a93f7630.setIcon(icon_2ed4b8b9898342bbadc394ed5e0e071b);
+        
+    
+            marker_6beda2facfad4047a72a8336a93f7630.bindTooltip(
+                `<div>
+                     YUHUA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_793d325663244c7aac10823190f48b5b = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_8b88286be10d4070a1e5466aaae2e989 = $(`             <div id="vega_lite_8b88286be10d4070a1e5466aaae2e989"></div>             `)[0];
+            popup_793d325663244c7aac10823190f48b5b.setContent(vega_lite_8b88286be10d4070a1e5466aaae2e989);
+        
+
+        marker_6beda2facfad4047a72a8336a93f7630.bindPopup(popup_793d325663244c7aac10823190f48b5b)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_8b88286be10d4070a1e5466aaae2e989, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-fde6649b84ebe27ff82ce0addd33e982"}, "datasets": {"data-fde6649b84ebe27ff82ce0addd33e982": [{"party": "PAP", "vote_percentage": 70.54}, {"party": "SDP", "vote_percentage": 29.46}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for YUHUA", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_0868ebe9fbcb4433af76bf4b4ac45c99 = L.marker(
+                [1.3475606739864474, 103.7471868103703],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_7c6b63d9ceeb416a82ee61b4e4fd55e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0868ebe9fbcb4433af76bf4b4ac45c99.setIcon(icon_7c6b63d9ceeb416a82ee61b4e4fd55e0);
+        
+    
+            marker_0868ebe9fbcb4433af76bf4b4ac45c99.bindTooltip(
+                `<div>
+                     BUKIT BATOK
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_400484bdd9654197a583fd224a47138b = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_aeda6655a1824d3598ef25cfe61aaedb = $(`             <div id="vega_lite_aeda6655a1824d3598ef25cfe61aaedb"></div>             `)[0];
+            popup_400484bdd9654197a583fd224a47138b.setContent(vega_lite_aeda6655a1824d3598ef25cfe61aaedb);
+        
+
+        marker_0868ebe9fbcb4433af76bf4b4ac45c99.bindPopup(popup_400484bdd9654197a583fd224a47138b)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_aeda6655a1824d3598ef25cfe61aaedb, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-d43216e15e0894828aec3879b906ce68"}, "datasets": {"data-d43216e15e0894828aec3879b906ce68": [{"party": "SDP", "vote_percentage": 45.2}, {"party": "PAP", "vote_percentage": 54.8}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for BUKIT BATOK", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_8b66c5906435454b808b292a941ee912 = L.marker(
+                [1.3351045698818773, 103.74531091402933],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_363dcb2a1856416a9aec235b57b5ed38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8b66c5906435454b808b292a941ee912.setIcon(icon_363dcb2a1856416a9aec235b57b5ed38);
+        
+    
+            marker_8b66c5906435454b808b292a941ee912.bindTooltip(
+                `<div>
+                     JURONG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_b1c7a6318eba4c089981310256b31c61 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_ffb22500b1cf45899fe155c349a92ce1 = $(`             <div id="vega_lite_ffb22500b1cf45899fe155c349a92ce1"></div>             `)[0];
+            popup_b1c7a6318eba4c089981310256b31c61.setContent(vega_lite_ffb22500b1cf45899fe155c349a92ce1);
+        
+
+        marker_8b66c5906435454b808b292a941ee912.bindPopup(popup_b1c7a6318eba4c089981310256b31c61)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_ffb22500b1cf45899fe155c349a92ce1, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-f19f5169a00477eb2d18c5a6998858f6"}, "datasets": {"data-f19f5169a00477eb2d18c5a6998858f6": [{"party": "PAP", "vote_percentage": 74.61}, {"party": "RDU", "vote_percentage": 25.39}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for JURONG", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_5f3ab71b1f854a6a925d29d5026333ba = L.marker(
+                [1.323185931283781, 103.90294501309562],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_5a2c2993df54478aa4661b6d9a591b17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5f3ab71b1f854a6a925d29d5026333ba.setIcon(icon_5a2c2993df54478aa4661b6d9a591b17);
+        
+    
+            marker_5f3ab71b1f854a6a925d29d5026333ba.bindTooltip(
+                `<div>
+                     MARINE PARADE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_81064f13e3624d219a1fd5192fe05573 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_b69c7bff47b24c69836d4a3e88ee67a4 = $(`             <div id="vega_lite_b69c7bff47b24c69836d4a3e88ee67a4"></div>             `)[0];
+            popup_81064f13e3624d219a1fd5192fe05573.setContent(vega_lite_b69c7bff47b24c69836d4a3e88ee67a4);
+        
+
+        marker_5f3ab71b1f854a6a925d29d5026333ba.bindPopup(popup_81064f13e3624d219a1fd5192fe05573)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_b69c7bff47b24c69836d4a3e88ee67a4, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-9c624ea595018b2df875e927e0a99a7b"}, "datasets": {"data-9c624ea595018b2df875e927e0a99a7b": [{"party": "WP", "vote_percentage": 42.26}, {"party": "PAP", "vote_percentage": 57.74}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for MARINE PARADE", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_57d6f15d3eeb4986adf62b02d4762549 = L.marker(
+                [1.2890019271367006, 103.70596113525787],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_7d4f24a1a2294700a2aa409fe794d844 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_57d6f15d3eeb4986adf62b02d4762549.setIcon(icon_7d4f24a1a2294700a2aa409fe794d844);
+        
+    
+            marker_57d6f15d3eeb4986adf62b02d4762549.bindTooltip(
+                `<div>
+                     WEST COAST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_c06429574c624d3ba8e95000a08dfe9e = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_ccb9ecde4ff646fbaf9797177f97bc49 = $(`             <div id="vega_lite_ccb9ecde4ff646fbaf9797177f97bc49"></div>             `)[0];
+            popup_c06429574c624d3ba8e95000a08dfe9e.setContent(vega_lite_ccb9ecde4ff646fbaf9797177f97bc49);
+        
+
+        marker_57d6f15d3eeb4986adf62b02d4762549.bindPopup(popup_c06429574c624d3ba8e95000a08dfe9e)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_ccb9ecde4ff646fbaf9797177f97bc49, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-e4a765519e3f53dafe83489a8aa575c8"}, "datasets": {"data-e4a765519e3f53dafe83489a8aa575c8": [{"party": "PAP", "vote_percentage": 51.68}, {"party": "PSP", "vote_percentage": 48.32}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for WEST COAST", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_63d539d27d31451fa51a53f41e3821da = L.marker(
+                [1.3577485419506994, 103.84275212493193],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_efa5d68f15f94255a861650efe9b832d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_63d539d27d31451fa51a53f41e3821da.setIcon(icon_efa5d68f15f94255a861650efe9b832d);
+        
+    
+            marker_63d539d27d31451fa51a53f41e3821da.bindTooltip(
+                `<div>
+                     MARYMOUNT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_1c6aa98da95844eb8b3430daa6994096 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_184d4ba360254968819457a5018f956d = $(`             <div id="vega_lite_184d4ba360254968819457a5018f956d"></div>             `)[0];
+            popup_1c6aa98da95844eb8b3430daa6994096.setContent(vega_lite_184d4ba360254968819457a5018f956d);
+        
+
+        marker_63d539d27d31451fa51a53f41e3821da.bindPopup(popup_1c6aa98da95844eb8b3430daa6994096)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_184d4ba360254968819457a5018f956d, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-4cd16b0c0dd939323624c792311e7765"}, "datasets": {"data-4cd16b0c0dd939323624c792311e7765": [{"party": "PSP", "vote_percentage": 44.96}, {"party": "PAP", "vote_percentage": 55.04}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for MARYMOUNT", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_68400cdec789497b8d206a81467e9cbd = L.marker(
+                [1.3457748681686967, 103.83200104426263],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_00294391cde7461186b0c14d8153916f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_68400cdec789497b8d206a81467e9cbd.setIcon(icon_00294391cde7461186b0c14d8153916f);
+        
+    
+            marker_68400cdec789497b8d206a81467e9cbd.bindTooltip(
+                `<div>
+                     BISHAN-TOA PAYOH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_0f36268ed50e4309b9116c9974b4bfdb = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_5d09631e2c0640108d4c1589f5347408 = $(`             <div id="vega_lite_5d09631e2c0640108d4c1589f5347408"></div>             `)[0];
+            popup_0f36268ed50e4309b9116c9974b4bfdb.setContent(vega_lite_5d09631e2c0640108d4c1589f5347408);
+        
+
+        marker_68400cdec789497b8d206a81467e9cbd.bindPopup(popup_0f36268ed50e4309b9116c9974b4bfdb)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_5d09631e2c0640108d4c1589f5347408, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-9634c8d64cea30086b301a97c92c63cb"}, "datasets": {"data-9634c8d64cea30086b301a97c92c63cb": [{"party": "PAP", "vote_percentage": 67.23}, {"party": "SPP", "vote_percentage": 32.77}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for BISHAN-TOA PAYOH", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_4e8bd766380a4c3996d0ee1c8dbe3181 = L.marker(
+                [1.3684003047158164, 103.89490791126292],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_a52c4a051f834884ad1fc2fb2b35c32c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gavel", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4e8bd766380a4c3996d0ee1c8dbe3181.setIcon(icon_a52c4a051f834884ad1fc2fb2b35c32c);
+        
+    
+            marker_4e8bd766380a4c3996d0ee1c8dbe3181.bindTooltip(
+                `<div>
+                     HOUGANG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_4f75093fa9574b1595eff55c644072d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_39086aa004554f0387cbd73e1c22b3f8 = $(`             <div id="vega_lite_39086aa004554f0387cbd73e1c22b3f8"></div>             `)[0];
+            popup_4f75093fa9574b1595eff55c644072d6.setContent(vega_lite_39086aa004554f0387cbd73e1c22b3f8);
+        
+
+        marker_4e8bd766380a4c3996d0ee1c8dbe3181.bindPopup(popup_4f75093fa9574b1595eff55c644072d6)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_39086aa004554f0387cbd73e1c22b3f8, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-50ea72a46bcc69ffb04d76ea9dc93558"}, "datasets": {"data-50ea72a46bcc69ffb04d76ea9dc93558": [{"party": "PAP", "vote_percentage": 38.79}, {"party": "WP", "vote_percentage": 61.21}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for HOUGANG", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_98ec4609ba8841198169f73499dcf1bd = L.marker(
+                [1.3627565794708019, 103.73197170379285],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_17bc92b3293b4621a58f7d843d4e01a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_98ec4609ba8841198169f73499dcf1bd.setIcon(icon_17bc92b3293b4621a58f7d843d4e01a1);
+        
+    
+            marker_98ec4609ba8841198169f73499dcf1bd.bindTooltip(
+                `<div>
+                     HONG KAH NORTH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_bf2c078b9e48446eb5cfa5b83424b435 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_d96cd8d34e324afc8f69c942d91ed9e6 = $(`             <div id="vega_lite_d96cd8d34e324afc8f69c942d91ed9e6"></div>             `)[0];
+            popup_bf2c078b9e48446eb5cfa5b83424b435.setContent(vega_lite_d96cd8d34e324afc8f69c942d91ed9e6);
+        
+
+        marker_98ec4609ba8841198169f73499dcf1bd.bindPopup(popup_bf2c078b9e48446eb5cfa5b83424b435)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_d96cd8d34e324afc8f69c942d91ed9e6, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-7f09739c058f61ef77184e9170c4e5e1"}, "datasets": {"data-7f09739c058f61ef77184e9170c4e5e1": [{"party": "PAP", "vote_percentage": 60.99}, {"party": "PSP", "vote_percentage": 39.01}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for HONG KAH NORTH", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_089eae5415564f23b6c6ecbd3d8e1e35 = L.marker(
+                [1.3594384514422568, 103.94152145341093],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_e8ee3e7f7b024bbaad70f5a855789d89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_089eae5415564f23b6c6ecbd3d8e1e35.setIcon(icon_e8ee3e7f7b024bbaad70f5a855789d89);
+        
+    
+            marker_089eae5415564f23b6c6ecbd3d8e1e35.bindTooltip(
+                `<div>
+                     TAMPINES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_d04d6beacb81404eb1712d2e29e82f7d = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_9b2243ba2da744e3ae10fa64641a178c = $(`             <div id="vega_lite_9b2243ba2da744e3ae10fa64641a178c"></div>             `)[0];
+            popup_d04d6beacb81404eb1712d2e29e82f7d.setContent(vega_lite_9b2243ba2da744e3ae10fa64641a178c);
+        
+
+        marker_089eae5415564f23b6c6ecbd3d8e1e35.bindPopup(popup_d04d6beacb81404eb1712d2e29e82f7d)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_9b2243ba2da744e3ae10fa64641a178c, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-c04188cdf6516577671ebd5bac7723fc"}, "datasets": {"data-c04188cdf6516577671ebd5bac7723fc": [{"party": "PAP", "vote_percentage": 66.41}, {"party": "NSP", "vote_percentage": 33.59}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for TAMPINES", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_e3b3787df95e4f4bb39ff6af37aa1228 = L.marker(
+                [1.355507088429944, 103.90292967503645],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_e8a24558610241ee91b5566683779424 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gavel", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e3b3787df95e4f4bb39ff6af37aa1228.setIcon(icon_e8a24558610241ee91b5566683779424);
+        
+    
+            marker_e3b3787df95e4f4bb39ff6af37aa1228.bindTooltip(
+                `<div>
+                     ALJUNIED
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_add5b281a7ba410ca9be9d32cdde8e73 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_32e7c0ea081943f3a81be888bd76585f = $(`             <div id="vega_lite_32e7c0ea081943f3a81be888bd76585f"></div>             `)[0];
+            popup_add5b281a7ba410ca9be9d32cdde8e73.setContent(vega_lite_32e7c0ea081943f3a81be888bd76585f);
+        
+
+        marker_e3b3787df95e4f4bb39ff6af37aa1228.bindPopup(popup_add5b281a7ba410ca9be9d32cdde8e73)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_32e7c0ea081943f3a81be888bd76585f, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-bb7ca928b5440e3fec8f2b9005decbf4"}, "datasets": {"data-bb7ca928b5440e3fec8f2b9005decbf4": [{"party": "PAP", "vote_percentage": 40.05}, {"party": "WP", "vote_percentage": 59.95}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for ALJUNIED", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_819b0d8279c6465dba70c803af766991 = L.marker(
+                [1.376833663842171, 103.7730521601094],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_c42268058e724429a357e1e41b7e2e62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_819b0d8279c6465dba70c803af766991.setIcon(icon_c42268058e724429a357e1e41b7e2e62);
+        
+    
+            marker_819b0d8279c6465dba70c803af766991.bindTooltip(
+                `<div>
+                     BUKIT PANJANG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_0b386519b13d479d865ddd1146e82796 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_d95fd55f71d040ad87b3139e86612693 = $(`             <div id="vega_lite_d95fd55f71d040ad87b3139e86612693"></div>             `)[0];
+            popup_0b386519b13d479d865ddd1146e82796.setContent(vega_lite_d95fd55f71d040ad87b3139e86612693);
+        
+
+        marker_819b0d8279c6465dba70c803af766991.bindPopup(popup_0b386519b13d479d865ddd1146e82796)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_d95fd55f71d040ad87b3139e86612693, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-dcd5d3800c6eefd14fd7f0e9219c31aa"}, "datasets": {"data-dcd5d3800c6eefd14fd7f0e9219c31aa": [{"party": "PAP", "vote_percentage": 53.73}, {"party": "SDP", "vote_percentage": 46.27}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for BUKIT PANJANG", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_80bc6c0a4cc442c4879d497701a8e90b = L.marker(
+                [1.3839808437604324, 103.83875944301174],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_ed1dee88eaef4f88868c8a9228ee54cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_80bc6c0a4cc442c4879d497701a8e90b.setIcon(icon_ed1dee88eaef4f88868c8a9228ee54cf);
+        
+    
+            marker_80bc6c0a4cc442c4879d497701a8e90b.bindTooltip(
+                `<div>
+                     YIO CHU KANG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_e4c5289b16b74a77bf68491c38a4af29 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_5aac9c6fbd1b49319c32b013c76786a1 = $(`             <div id="vega_lite_5aac9c6fbd1b49319c32b013c76786a1"></div>             `)[0];
+            popup_e4c5289b16b74a77bf68491c38a4af29.setContent(vega_lite_5aac9c6fbd1b49319c32b013c76786a1);
+        
+
+        marker_80bc6c0a4cc442c4879d497701a8e90b.bindPopup(popup_e4c5289b16b74a77bf68491c38a4af29)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_5aac9c6fbd1b49319c32b013c76786a1, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-70dfc7b307790f27705d4486bba72b83"}, "datasets": {"data-70dfc7b307790f27705d4486bba72b83": [{"party": "PSP", "vote_percentage": 39.18}, {"party": "PAP", "vote_percentage": 60.82}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for YIO CHU KANG", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_846b4a3f52d34b96881b34399fcbb2c6 = L.marker(
+                [1.3901613973187283, 103.89704746574907],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_78e3107d464046a791cdb066ca455d5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gavel", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_846b4a3f52d34b96881b34399fcbb2c6.setIcon(icon_78e3107d464046a791cdb066ca455d5f);
+        
+    
+            marker_846b4a3f52d34b96881b34399fcbb2c6.bindTooltip(
+                `<div>
+                     SENGKANG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_de291e0563174dddb534c13c833dbfe1 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_125c6fc0b6ce487fa1324a4747b3b3d4 = $(`             <div id="vega_lite_125c6fc0b6ce487fa1324a4747b3b3d4"></div>             `)[0];
+            popup_de291e0563174dddb534c13c833dbfe1.setContent(vega_lite_125c6fc0b6ce487fa1324a4747b3b3d4);
+        
+
+        marker_846b4a3f52d34b96881b34399fcbb2c6.bindPopup(popup_de291e0563174dddb534c13c833dbfe1)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_125c6fc0b6ce487fa1324a4747b3b3d4, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-740c7d36814b3f89f00fd4ed8ccf17f1"}, "datasets": {"data-740c7d36814b3f89f00fd4ed8ccf17f1": [{"party": "PAP", "vote_percentage": 47.88}, {"party": "WP", "vote_percentage": 52.12}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for SENGKANG", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_175208f42cee432c9ea45933394d4fb2 = L.marker(
+                [1.3815915079988257, 103.82578398809954],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_b771524f56a64ef8b511f2f134906773 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_175208f42cee432c9ea45933394d4fb2.setIcon(icon_b771524f56a64ef8b511f2f134906773);
+        
+    
+            marker_175208f42cee432c9ea45933394d4fb2.bindTooltip(
+                `<div>
+                     KEBUN BARU
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_bd3f9b31eddb426b8c10cc293817c239 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_71c7b3046e46465d94cfb99b9c010384 = $(`             <div id="vega_lite_71c7b3046e46465d94cfb99b9c010384"></div>             `)[0];
+            popup_bd3f9b31eddb426b8c10cc293817c239.setContent(vega_lite_71c7b3046e46465d94cfb99b9c010384);
+        
+
+        marker_175208f42cee432c9ea45933394d4fb2.bindPopup(popup_bd3f9b31eddb426b8c10cc293817c239)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_71c7b3046e46465d94cfb99b9c010384, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-dac74744de5bff0e1f07cc5c04a4f24f"}, "datasets": {"data-dac74744de5bff0e1f07cc5c04a4f24f": [{"party": "PSP", "vote_percentage": 37.08}, {"party": "PAP", "vote_percentage": 62.92}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for KEBUN BARU", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_39c8c70cca2b4c708ec7465eb0e8f877 = L.marker(
+                [1.403922616470893, 103.8959447056464],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_b99beb20262e452ea85b34e81b4ad944 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_39c8c70cca2b4c708ec7465eb0e8f877.setIcon(icon_b99beb20262e452ea85b34e81b4ad944);
+        
+    
+            marker_39c8c70cca2b4c708ec7465eb0e8f877.bindTooltip(
+                `<div>
+                     PUNGGOL WEST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_1b50a4c112e54a55acf074ab8c759364 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_10cffa310f6049d285aa27bb76b682a0 = $(`             <div id="vega_lite_10cffa310f6049d285aa27bb76b682a0"></div>             `)[0];
+            popup_1b50a4c112e54a55acf074ab8c759364.setContent(vega_lite_10cffa310f6049d285aa27bb76b682a0);
+        
+
+        marker_39c8c70cca2b4c708ec7465eb0e8f877.bindPopup(popup_1b50a4c112e54a55acf074ab8c759364)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_10cffa310f6049d285aa27bb76b682a0, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-070b728c1321ba75b6253051936d0166"}, "datasets": {"data-070b728c1321ba75b6253051936d0166": [{"party": "PAP", "vote_percentage": 60.98}, {"party": "WP", "vote_percentage": 39.02}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for PUNGGOL WEST", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_f2b5f9ad2e2e4dff8e8619434e1b47e0 = L.marker(
+                [1.3658475267644983, 103.78784256612474],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_c4649b4c04ab498cbe4f5c8cc5841cb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f2b5f9ad2e2e4dff8e8619434e1b47e0.setIcon(icon_c4649b4c04ab498cbe4f5c8cc5841cb3);
+        
+    
+            marker_f2b5f9ad2e2e4dff8e8619434e1b47e0.bindTooltip(
+                `<div>
+                     HOLLAND-BUKIT TIMAH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_2f31ef88871740aa8f10fd2283e95e3e = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_d064a5a5d8974e35ad7ddb91fb7199ea = $(`             <div id="vega_lite_d064a5a5d8974e35ad7ddb91fb7199ea"></div>             `)[0];
+            popup_2f31ef88871740aa8f10fd2283e95e3e.setContent(vega_lite_d064a5a5d8974e35ad7ddb91fb7199ea);
+        
+
+        marker_f2b5f9ad2e2e4dff8e8619434e1b47e0.bindPopup(popup_2f31ef88871740aa8f10fd2283e95e3e)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_d064a5a5d8974e35ad7ddb91fb7199ea, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-9c03c515f4dce37d41754d03097c272e"}, "datasets": {"data-9c03c515f4dce37d41754d03097c272e": [{"party": "SDP", "vote_percentage": 33.64}, {"party": "PAP", "vote_percentage": 66.36}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for HOLLAND-BUKIT TIMAH", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_9bc44a5867a54e48a36b6a3ba23510e4 = L.marker(
+                [1.3897010798327318, 103.93133564966094],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_b48bf22926d449aabc86be99bbdb46fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9bc44a5867a54e48a36b6a3ba23510e4.setIcon(icon_b48bf22926d449aabc86be99bbdb46fe);
+        
+    
+            marker_9bc44a5867a54e48a36b6a3ba23510e4.bindTooltip(
+                `<div>
+                     PASIR RIS-PUNGGOL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_0dd5cf6b4df846388ad0233e574b6c5d = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_72b5342fe6fd43dd9e6d35328b72ec9f = $(`             <div id="vega_lite_72b5342fe6fd43dd9e6d35328b72ec9f"></div>             `)[0];
+            popup_0dd5cf6b4df846388ad0233e574b6c5d.setContent(vega_lite_72b5342fe6fd43dd9e6d35328b72ec9f);
+        
+
+        marker_9bc44a5867a54e48a36b6a3ba23510e4.bindPopup(popup_0dd5cf6b4df846388ad0233e574b6c5d)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_72b5342fe6fd43dd9e6d35328b72ec9f, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-29b0e420d2a370861d5fcade417506c7"}, "datasets": {"data-29b0e420d2a370861d5fcade417506c7": [{"party": "SDA", "vote_percentage": 23.67}, {"party": "PV", "vote_percentage": 12.17}, {"party": "PAP", "vote_percentage": 64.16}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for PASIR RIS-PUNGGOL", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_75edcbf0bb9f471d9e4192ec197ace8a = L.marker(
+                [1.3696027642662085, 104.0039252255161],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_ef07650b6d1f4661b751f0f90342f3d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_75edcbf0bb9f471d9e4192ec197ace8a.setIcon(icon_ef07650b6d1f4661b751f0f90342f3d7);
+        
+    
+            marker_75edcbf0bb9f471d9e4192ec197ace8a.bindTooltip(
+                `<div>
+                     EAST COAST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_18714cd85a8f4da199911bdd734b7668 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_bf6e1ce2aa114e2eac81d98672c7087a = $(`             <div id="vega_lite_bf6e1ce2aa114e2eac81d98672c7087a"></div>             `)[0];
+            popup_18714cd85a8f4da199911bdd734b7668.setContent(vega_lite_bf6e1ce2aa114e2eac81d98672c7087a);
+        
+
+        marker_75edcbf0bb9f471d9e4192ec197ace8a.bindPopup(popup_18714cd85a8f4da199911bdd734b7668)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_bf6e1ce2aa114e2eac81d98672c7087a, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-b0df38576f234c9675b2aa9830e3182c"}, "datasets": {"data-b0df38576f234c9675b2aa9830e3182c": [{"party": "WP", "vote_percentage": 46.61}, {"party": "PAP", "vote_percentage": 53.39}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for EAST COAST", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_9069294137e741cc898d15987a9e6dea = L.marker(
+                [1.3952294508760836, 103.86714718048466],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_a24cb8532f5a4cd0aca806283bf7958d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9069294137e741cc898d15987a9e6dea.setIcon(icon_a24cb8532f5a4cd0aca806283bf7958d);
+        
+    
+            marker_9069294137e741cc898d15987a9e6dea.bindTooltip(
+                `<div>
+                     ANG MO KIO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_d3d2fd1f3e0d43939a9722f0f1e0f950 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_2a0dfabb296c48048989f16ea5a6d864 = $(`             <div id="vega_lite_2a0dfabb296c48048989f16ea5a6d864"></div>             `)[0];
+            popup_d3d2fd1f3e0d43939a9722f0f1e0f950.setContent(vega_lite_2a0dfabb296c48048989f16ea5a6d864);
+        
+
+        marker_9069294137e741cc898d15987a9e6dea.bindPopup(popup_d3d2fd1f3e0d43939a9722f0f1e0f950)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_2a0dfabb296c48048989f16ea5a6d864, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-5eb2b788b568ad83afedc0f090afbf4f"}, "datasets": {"data-5eb2b788b568ad83afedc0f090afbf4f": [{"party": "PAP", "vote_percentage": 71.91}, {"party": "RP", "vote_percentage": 28.09}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for ANG MO KIO", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_a197c8e8fa2b4894bef9f86a9d4451f3 = L.marker(
+                [1.4232251406725156, 103.76572659755615],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_2f4f0d3fc0034d9ba7da6987e6639ee6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a197c8e8fa2b4894bef9f86a9d4451f3.setIcon(icon_2f4f0d3fc0034d9ba7da6987e6639ee6);
+        
+    
+            marker_a197c8e8fa2b4894bef9f86a9d4451f3.bindTooltip(
+                `<div>
+                     MARSILING-YEW TEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_8ac6f18291c24b1aa02cde17edca1c5b = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_0d5e5916cb4b41e698b15cd9b633f658 = $(`             <div id="vega_lite_0d5e5916cb4b41e698b15cd9b633f658"></div>             `)[0];
+            popup_8ac6f18291c24b1aa02cde17edca1c5b.setContent(vega_lite_0d5e5916cb4b41e698b15cd9b633f658);
+        
+
+        marker_a197c8e8fa2b4894bef9f86a9d4451f3.bindPopup(popup_8ac6f18291c24b1aa02cde17edca1c5b)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_0d5e5916cb4b41e698b15cd9b633f658, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-6ffe9dd62752a1c5b380bc0d968f8196"}, "datasets": {"data-6ffe9dd62752a1c5b380bc0d968f8196": [{"party": "SDP", "vote_percentage": 36.82}, {"party": "PAP", "vote_percentage": 63.18}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for MARSILING-YEW TEE", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_9ee3f3ca414e4a35937a720642ceb690 = L.marker(
+                [1.394100444743377, 103.70446433188238],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_2e1d1bf14cea4dfcba254f07a33acc7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9ee3f3ca414e4a35937a720642ceb690.setIcon(icon_2e1d1bf14cea4dfcba254f07a33acc7c);
+        
+    
+            marker_9ee3f3ca414e4a35937a720642ceb690.bindTooltip(
+                `<div>
+                     CHUA CHU KANG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_126d84ccf3284c58a6615a99bfb448fc = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_2c9867650811421eb05a732bff864deb = $(`             <div id="vega_lite_2c9867650811421eb05a732bff864deb"></div>             `)[0];
+            popup_126d84ccf3284c58a6615a99bfb448fc.setContent(vega_lite_2c9867650811421eb05a732bff864deb);
+        
+
+        marker_9ee3f3ca414e4a35937a720642ceb690.bindPopup(popup_126d84ccf3284c58a6615a99bfb448fc)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_2c9867650811421eb05a732bff864deb, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-45966ad4b352f76112df3431ba482b12"}, "datasets": {"data-45966ad4b352f76112df3431ba482b12": [{"party": "PSP", "vote_percentage": 41.36}, {"party": "PAP", "vote_percentage": 58.64}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for CHUA CHU KANG", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_7ef08917b3de42d2a51caa03611cecf2 = L.marker(
+                [1.4237399423174648, 103.83152640469943],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_b06357d651124156afb4d7cd2ed06203 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7ef08917b3de42d2a51caa03611cecf2.setIcon(icon_b06357d651124156afb4d7cd2ed06203);
+        
+    
+            marker_7ef08917b3de42d2a51caa03611cecf2.bindTooltip(
+                `<div>
+                     NEE SOON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_fef3f05c44cb4f6fbade0ba674417ac3 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_915471fcca1e4d5fa18c5eae093e37f5 = $(`             <div id="vega_lite_915471fcca1e4d5fa18c5eae093e37f5"></div>             `)[0];
+            popup_fef3f05c44cb4f6fbade0ba674417ac3.setContent(vega_lite_915471fcca1e4d5fa18c5eae093e37f5);
+        
+
+        marker_7ef08917b3de42d2a51caa03611cecf2.bindPopup(popup_fef3f05c44cb4f6fbade0ba674417ac3)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_915471fcca1e4d5fa18c5eae093e37f5, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-36ab16f9b92baa62feab3800baad61b1"}, "datasets": {"data-36ab16f9b92baa62feab3800baad61b1": [{"party": "PSP", "vote_percentage": 38.1}, {"party": "PAP", "vote_percentage": 61.9}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for NEE SOON", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            var marker_758a39cb5e6d42d487397f33440fd059 = L.marker(
+                [1.4513477546371436, 103.80908110818795],
+                {}
+            ).addTo(map_5c728310e27a42bb89957658b8ddb339);
+        
+    
+            var icon_48d012a6cd5342f8bfe6834054b67301 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bolt", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_758a39cb5e6d42d487397f33440fd059.setIcon(icon_48d012a6cd5342f8bfe6834054b67301);
+        
+    
+            marker_758a39cb5e6d42d487397f33440fd059.bindTooltip(
+                `<div>
+                     SEMBAWANG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+        var popup_9e6d8dc40d6a4aa4a8462344410bd7b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var vega_lite_83bfc677b9f24974babc5de20c5ea2ff = $(`             <div id="vega_lite_83bfc677b9f24974babc5de20c5ea2ff"></div>             `)[0];
+            popup_9e6d8dc40d6a4aa4a8462344410bd7b0.setContent(vega_lite_83bfc677b9f24974babc5de20c5ea2ff);
+        
+
+        marker_758a39cb5e6d42d487397f33440fd059.bindPopup(popup_9e6d8dc40d6a4aa4a8462344410bd7b0)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_83bfc677b9f24974babc5de20c5ea2ff, {"$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "data": {"name": "data-b685dd197b39bbaeea8d852b8fe1e57d"}, "datasets": {"data-b685dd197b39bbaeea8d852b8fe1e57d": [{"party": "PAP", "vote_percentage": 67.29}, {"party": "NSP", "vote_percentage": 32.71}]}, "encoding": {"x": {"field": "vote_percentage", "type": "quantitative"}, "y": {"field": "party", "type": "nominal"}}, "mark": "bar", "title": "GE2020 Results for SEMBAWANG", "width": 300})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+</script>
